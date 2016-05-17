@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+
+int main(){
+    int angka[3][3];
+    int baris,kolom;
+
+    for(baris=0;baris<=2;baris++){
+        for(kolom=0;kolom<=2;kolom++){
+            cout<<"Angka["<<baris<<"]["<<kolom<<"] = ";
+            cin>>angka[baris][kolom];
+
+        }
+    cout<<endl;
+    }
+   system("cls");
+  for(baris=0;baris<=2;baris++){
+        for(kolom=0;kolom<=2;kolom++){
+            cout<<"[ "<<angka[baris][kolom]<<" ]";
+        }
+        cout<<endl;
+    }
+return 0;
+}
